@@ -1,6 +1,7 @@
 .container__big-card {
+    color: #0c0c0c;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 70px;
     width: 400px;
     height: 600px;
     display: flex;
@@ -10,21 +11,27 @@
 }
 
 .big-card__title h1 {
+   
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+}
 
+.big-card__title a {
+    color: #0c0c0c;
 }
 
 .big-card__description p {
     font-size: 15px;
     font-weight: 400;
-    color: gray;
+    color: rgb(53, 53, 53);
     margin-top: 2px;
     
 }
 
 .big-card__photo img {
     width: 100%;
-    min-width: 400px
+    min-width: 400px;
+    border-radius: 5px;
+    
 }
