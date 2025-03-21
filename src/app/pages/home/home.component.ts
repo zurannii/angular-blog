@@ -8,10 +8,13 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent, MenuBarComponent],
+  imports: [MenuTitleComponent, BigCardComponent, SmallCardComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+
+  constructor() { }
+  ngOnInit() {}
 
 }
