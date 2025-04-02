@@ -5,7 +5,7 @@
     justify-content: space-between;
     font-weight: 500;
     background-color:transparent;
-    background-color: rgb(141, 40, 241);
+    background-color: #ffffff;
     padding: 5px;
 }
 
@@ -13,11 +13,12 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-left: 20px;
+  margin-left: 0 47.2px;
+  padding: 0 24px;
 }
 
 .container__menu-bar ul li {
-    color: #ffffff;
+    color: #333;
     font-weight: 700;
     margin-right: 35px;
     display: inline-block; 
@@ -26,7 +27,7 @@
 }
 
 .container__menu-bar ul li a {
-    color: #ffffff;
+    color: #333;
     font-weight: 700;
     margin-right: 15px;
     display: inline-block; 
@@ -35,37 +36,19 @@
 }
 
 .container__menu-bar ul li a:hover {
-    background-color: transparent;
-    color: #57258f;
-}
-
-.menu-bar__search-content {
-    display: flex;
-    align-items: flex-start; 
-    gap: 10px
-    
-}
-
-.menu-bar__search {
-    margin-top: 10px;
-    width: 300px;
-    height: 25px;
-    border: 2px solid #ffffff;
-    border-radius: 5px;
-    padding: 5px 10px;
-    background-color: transparent;
-    color: #fff;
-    font-weight: 600;
-    margin-right: 5px;
+    background: linear-gradient(90deg, rgba(206, 5, 106, 0.99) 8.24%, #FF5800 53.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s ease;
 }
 
 .menu-bar__button {
     height: 35px;
     margin-top: 10px;
-    background-color: #f3e8ff;
-    color: #37036c;
+    background-color: #333;
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 28px;
     padding: 5px 15px;
     cursor: pointer;
     display: flex;
@@ -74,23 +57,7 @@
     font-weight: 700;
     margin-right: 50px;
 }
-
-.menu-bar__button:hover {
-    background-color: #d19dff;
-    color: #fff;
-} 
-
-input::placeholder {
-    color: #fff;
-    font-weight: 600;
-
+.menu-bar__button:hover{
+    background: linear-gradient(90deg, rgba(206, 5, 106, 0.99) 8.24%, #FF5800 53.94%);
+    transition: background 0.3s ease;
 }
-
-.menu-bar__social{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-

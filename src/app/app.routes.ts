@@ -9,15 +9,10 @@ export const routes: Routes = [
     },
     {
         path: 'content/:id',
-        component: ContentComponent,
-        data: {
-            getPrerenderParams: () => [
-                { id: '1' },
-                { id: '2' },
-                { id: '3' }
-            ]
-        }
+        component: ContentComponent // Removido o "data" com renderMode
     }
 ];
+
+
 
 

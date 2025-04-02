@@ -1,8 +1,9 @@
 .container__menu-title {
-  background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-comunicacoes-de-rede-abstrata-3d-com-design-de-plexo_1048-16800.jpg?uid=R142512436&ga=GA1.1.972304624.1723201760&semt=ais_hybrid");
+  position: relative; 
+  background-image: url("https://www.avanade.com/_next/image?url=https%3A%2F%2Fdigitalassets.avanade.com%2Fapi%2Fpublic%2Fcontent%2Favanade-home-page-horizontal-image&w=1080&q=75");
   background-size: cover;
   background-attachment: fixed;
-  color: #c79ffc;
+  color: #fff;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,22 +11,33 @@
   text-align: center;
 }
 
-.container__menu-subscription {
-  color: #e3e3e3;
-  margin: 0px 250px 0 250px;
+.container__menu-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(196, 69, 26, 0.3);
 }
 
 .container__menu-title h1 {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 135px;
-    font-weight: 700;
-    font-family: 'segoe ui';
-    display: flex;
-    justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 135px;
+  font-weight: 700;
+  font-family: 'segoe ui';
+  display: flex;
+  justify-content: center;
 }
 
-.container__menu-title hr {
-    margin-top: 5px;
-    margin-bottom: 15px;
+.container__menu-title h1, 
+.container__menu-subscription {
+  position: relative;
+}
+
+.container__menu-subscription {
+  color: #ffffff;
+  margin: 0px 250px 0 250px;
+  font-weight: 700;
 }
