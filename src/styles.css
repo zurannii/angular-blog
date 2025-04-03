@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #efefef;
-    color: #2a0245;
+    background-color: #ffffff;
+    color: #3e3e3e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -13,5 +13,5 @@ a {
     color: #000000;
 }
 h3 {
-    color: #2a0245;
+    color: #333;
 }

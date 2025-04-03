@@ -14,22 +14,17 @@
     gap: 44px;
 }
 
-.small-card__photo img {
-    width: 250px;
-    height: 183px;
-    min-width: 200px;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    border-radius: 5px;
-}
-
 .small-card__title {
     margin: 0 0 2px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000000;
-    
+    color: #202020; 
+}
+
+.small-card__title:hover{
+    background: linear-gradient(90deg, rgba(206, 5, 106, 0.99) 8.24%, #FF5800 53.94%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s ease;
 }
 
 .small-card__title h3{
@@ -52,6 +47,5 @@
     font-size: 15px
 }
 .container__small-card-separator {
-    margin-top: 5px
-
+    margin-top: 5px;
 }
