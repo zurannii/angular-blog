@@ -1,11 +1,31 @@
 .articles__title {
-    margin: 50px 150px 0 173px;
+    margin: 50px 600px 0 168px;
 }
 
-.container__articles {
-    margin-top: 60px;
+.articles__title h1 {
+    font-size: 25px;
+    margin: 0 0 0px 0;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: rgb(80, 80, 80);
+}
+
+.articles__title p {
+    font-size: 15px;
+    margin: 0 0 0 0;
+    font-weight: 400;
+    color: rgb(53, 53, 53);
+}
+
+.container__articles{
+    margin-top: 30px;
+}
+
+.articles__others {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 50px; 
+    justify-content: center; 
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
-

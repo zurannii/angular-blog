@@ -9,18 +9,18 @@ export const dataFake = [
         "id": "1",
         "title": "IA no Setor Financeiro: Transformação e Desafios",
         "description": "Bancos com receita entre US$500 milhões e US$5 bilhões estão apostando na inteligência artificial para impulsionar inovação e eficiência. A tecnologia tem o potencial de transformar operações, otimizar a experiência do cliente e aumentar a competitividade no setor. No entanto, as lideranças financeiras reconhecem que essa jornada não é simples. Para aproveitar ao máximo o poder da IA, é preciso superar desafios complexos que envolvem pessoas, dados e tecnologia. A implementação exige integração estratégica, segurança da informação e um alinhamento cuidadoso entre inovação e regulação. O futuro do setor bancário está cada vez mais conectado à inteligência artificial. Quem souber navegar esses desafios estará um passo à frente na revolução digital financeira.",
-        "photoCover": "https://img.freepik.com/vetores-gratis/fundo-roxo-com-conceito-5g-isometrico_23-2148262310.jpg?uid=R142512436&ga=GA1.1.972304624.1723201760&semt=ais_hybrid"
+        "photoCover": "https://www.avanade.com/_next/image?url=https%3A%2F%2Fdigitalassets.avanade.com%2Fapi%2Fpublic%2Fcontent%2Fservice-649x364&w=1920&q=75"
     },
     {
         "id": "2",
-        "title": "IA no Setor Financeiro: Transformação e Desafios",
+        "title": "IA no Varejo e Bens de Consumo: O Caminho para 2025",
         "description": "Bancos com receita entre US$500 milhões e US$5 bilhões estão apostando na inteligência artificial para impulsionar inovação e eficiência. A tecnologia tem o potencial de transformar operações, otimizar a experiência do cliente e aumentar a competitividade no setor. No entanto, as lideranças financeiras reconhecem que essa jornada não é simples. Para aproveitar ao máximo o poder da IA, é preciso superar desafios complexos que envolvem pessoas, dados e tecnologia. A implementação exige integração estratégica, segurança da informação e um alinhamento cuidadoso entre inovação e regulação. O futuro do setor bancário está cada vez mais conectado à inteligência artificial. Quem souber navegar esses desafios estará um passo à frente na revolução digital financeira.",
-        "photoCover": "https://img.freepik.com/vetores-gratis/fundo-roxo-com-conceito-5g-isometrico_23-2148262310.jpg?uid=R142512436&ga=GA1.1.972304624.1723201760&semt=ais_hybrid"
+        "photoCover": "https://www.avanade.com/_next/image?url=https%3A%2F%2Fdigitalassets.avanade.com%2Fapi%2Fpublic%2Fcontent%2Findustry-649x364&w=1920&q=75"
     },
     {
         "id": "3",
-        "title": "IA no Setor Financeiro: Transformação e Desafios",
+        "title": "Agentes de IA: Automação Inteligente para Maior Eficiência",
         "description": "Bancos com receita entre US$500 milhões e US$5 bilhões estão apostando na inteligência artificial para impulsionar inovação e eficiência. A tecnologia tem o potencial de transformar operações, otimizar a experiência do cliente e aumentar a competitividade no setor. No entanto, as lideranças financeiras reconhecem que essa jornada não é simples. Para aproveitar ao máximo o poder da IA, é preciso superar desafios complexos que envolvem pessoas, dados e tecnologia. A implementação exige integração estratégica, segurança da informação e um alinhamento cuidadoso entre inovação e regulação. O futuro do setor bancário está cada vez mais conectado à inteligência artificial. Quem souber navegar esses desafios estará um passo à frente na revolução digital financeira.",
-        "photoCover": "https://img.freepik.com/vetores-gratis/fundo-roxo-com-conceito-5g-isometrico_23-2148262310.jpg?uid=R142512436&ga=GA1.1.972304624.1723201760&semt=ais_hybrid"
+        "photoCover": "https://www.avanade.com/_next/image?url=https%3A%2F%2Fdigitalassets.avanade.com%2Fapi%2Fpublic%2Fcontent%2Favanade-homepage-full-bleed-content-carousel-3-1728x740&w=1080&q=75"
     }
 ]

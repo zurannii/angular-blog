@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -7,18 +7,13 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css'
 })
-export class SmallCardComponent implements OnInit {
-  @Input()
-  photoCover: string = "";
-  @Input()
-  cardTitle: string = "";
-  @Input()
-  cardDescription: string = "";
-  @Input()
-  Id: string = "0";
-  constructor() {}
-  ngOnInit(): void { 
+export class SmallCardComponent implements OnChanges {
+  @Input() Id: string = '';
+  @Input() cardTitle: string = '';
+  @Input() cardDescription: string = '';
+  @Input() photoCover: string = '';
 
+  ngOnChanges(changes: SimpleChanges): void {
+    console.log('Inputs atualizados:', changes);
   }
-
 }

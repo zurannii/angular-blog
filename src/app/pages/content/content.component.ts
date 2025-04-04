@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { HomeComponent } from "../home/home.component";
 import { ActivatedRoute } from '@angular/router';
 import {dataFake} from '../content/data/dataFake';
 
@@ -25,8 +24,9 @@ export class ContentComponent {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((value: import('@angular/router').ParamMap) => {
-      const id = value.get('id') ? value.get('id') : '1';
+      this.id = value.get('id') ? value.get('id') : '1';
       console.log('id encontrado', this.id);
+      this.setValuesToComponent(this.id);
     });
 
     this.setValuesToComponent(this.id)
